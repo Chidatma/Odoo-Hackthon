@@ -1,6 +1,6 @@
 # Odoo-Hackthon
 
-# 🚛 FleetOps – Intelligent Fleet Lifecycle & Safety Management System  
+# FleetOps – Intelligent Fleet Lifecycle & Safety Management System  
 
 ### Replace Manual Logbooks with a Smart, Rule-Based Digital Fleet Hub
 
@@ -14,7 +14,7 @@
 
 ---
 
-# 📌 Project Overview
+# Project Overview
 
 **FleetOps** is a comprehensive fleet management system built to eliminate inefficient, manual record-keeping and replace it with an intelligent, rule-driven digital command center.
 
@@ -29,7 +29,7 @@ This system enables:
 
 ---
 
-# 🎯 Objective
+# Objective
 
 To replace outdated manual logbooks with a centralized, rule-based digital hub that:
 
@@ -40,7 +40,7 @@ To replace outdated manual logbooks with a centralized, rule-based digital hub t
 
 ---
 
-# 👥 Target Users
+# Target Users
 
 | Role | Responsibilities |
 |------|------------------|
@@ -51,7 +51,7 @@ To replace outdated manual logbooks with a centralized, rule-based digital hub t
 
 ---
 
-# 🏗️ System Architecture Overview
+# System Architecture Overview
 
 ```mermaid
 flowchart TD
@@ -70,11 +70,11 @@ flowchart TD
 
 ---
 
-# 🖥️ Core System Pages
+# Core System Pages
 
 ---
 
-## 🔐 Page 1: Login & Authentication
+## Page 1: Login & Authentication
 
 **Purpose:** Secure access based on user roles.
 
@@ -87,7 +87,7 @@ flowchart TD
 
 ---
 
-## 📊 Page 2: Command Center (Main Dashboard)
+## Page 2: Command Center (Main Dashboard)
 
 **Purpose:** High-level fleet oversight.
 
@@ -106,7 +106,7 @@ flowchart TD
 
 ---
 
-## 🚚 Page 3: Vehicle Registry (Asset Management)
+## Page 3: Vehicle Registry (Asset Management)
 
 **Purpose:** CRUD management of fleet assets.
 
@@ -125,7 +125,7 @@ flowchart TD
 
 ---
 
-## 🗺️ Page 4: Trip Dispatcher & Management
+## Page 4: Trip Dispatcher & Management
 
 **Purpose:** Manage delivery workflow from origin to destination.
 
@@ -148,7 +148,7 @@ Draft → Dispatched → Completed → Cancelled
 
 ---
 
-## 🛠️ Page 5: Maintenance & Service Logs
+## Page 5: Maintenance & Service Logs
 
 **Purpose:** Preventative and reactive maintenance tracking.
 
@@ -160,7 +160,7 @@ Draft → Dispatched → Completed → Cancelled
 
 ---
 
-## ⛽ Page 6: Completed Trip, Expense & Fuel Logging
+## Page 6: Completed Trip, Expense & Fuel Logging
 
 **Purpose:** Financial visibility per asset.
 
@@ -176,7 +176,7 @@ Draft → Dispatched → Completed → Cancelled
 
 ---
 
-## 👨‍✈️ Page 7: Driver Performance & Safety Profiles
+## Page 7: Driver Performance & Safety Profiles
 
 **Purpose:** Compliance and HR management.
 
@@ -198,7 +198,7 @@ On Duty / Off Duty / Suspended
 
 ---
 
-## 📈 Page 8: Operational Analytics & Financial Reports
+## Page 8: Operational Analytics & Financial Reports
 
 **Purpose:** Data-driven decision making.
 
@@ -225,9 +225,9 @@ km per Liter (km/L)
 
 ---
 
-# 🔄 Logic & Workflow Summary
+# Logic & Workflow Summary
 
-### 1️⃣ Vehicle Intake
+### Vehicle Intake
 
 Add **Van-05**  
 Capacity: 500kg  
@@ -235,14 +235,14 @@ Status: Available
 
 ---
 
-### 2️⃣ Driver Compliance
+### Driver Compliance
 
 Add Driver "Alex"  
 System verifies license validity for Van category  
 
 ---
 
-### 3️⃣ Dispatching
+### Dispatching
 
 Assign Alex → Van-05 → 450kg cargo  
 
@@ -258,7 +258,7 @@ Status Update:
 
 ---
 
-### 4️⃣ Trip Completion
+### Trip Completion
 
 Driver marks trip "Completed"  
 Final Odometer entered  
@@ -269,7 +269,7 @@ Status Update:
 
 ---
 
-### 5️⃣ Maintenance Logging
+### Maintenance Logging
 
 Manager logs “Oil Change”  
 
@@ -279,7 +279,7 @@ Auto Logic:
 
 ---
 
-### 6️⃣ Analytics Update
+### Analytics Update
 
 System recalculates:
 
@@ -289,7 +289,7 @@ System recalculates:
 
 ---
 
-# 🗃️ Suggested Project Structure
+# Suggested Project Structure
 
 ```
 fleetops/
@@ -309,7 +309,7 @@ fleetops/
 
 ---
 
-# 🧠 Technical Requirements
+# Technical Requirements
 
 ## Frontend
 
@@ -338,7 +338,7 @@ All expenses and trips must reference a specific Vehicle ID.
 
 ---
 
-# 🚀 Key Features
+# Key Features
 
 ✔ Rule-Based Dispatch Validation  
 ✔ Real-Time Fleet Availability  
@@ -351,7 +351,7 @@ All expenses and trips must reference a specific Vehicle ID.
 
 ---
 
-# 🔮 Future Enhancements
+# Future Enhancements
 
 - GPS Live Tracking Integration  
 - Predictive Maintenance (AI-based)  
@@ -363,7 +363,7 @@ All expenses and trips must reference a specific Vehicle ID.
 
 ---
 
-# 📦 Use Cases
+# Use Cases
 
 - Logistics & Delivery Companies  
 - E-commerce Fleet Operations  
@@ -373,7 +373,7 @@ All expenses and trips must reference a specific Vehicle ID.
 
 ---
 
-# 🤝 Contributing
+# Contributing
 
 1. Fork repository  
 2. Create feature branch  
@@ -383,10 +383,10 @@ All expenses and trips must reference a specific Vehicle ID.
 
 ---
 
-# 📣 Final Note
+# Final Note
 
 FleetOps is not just a tracking tool — it is a **decision intelligence system** for modern fleet operations.
 
 Built for scalability.  
 Designed for compliance.  
-Optimized for profitability. 🚛
+Optimized for profitability. 
