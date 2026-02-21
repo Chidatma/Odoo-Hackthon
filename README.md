@@ -1,5 +1,3 @@
-# Odoo-Hackthon
-
 # FleetOps – Intelligent Fleet Lifecycle & Safety Management System  
 
 ### Replace Manual Logbooks with a Smart, Rule-Based Digital Fleet Hub
