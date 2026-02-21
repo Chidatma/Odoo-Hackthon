@@ -1,7 +1,40 @@
-## Deploy: 
-https://tinyurl.com/fleetlogistic
+## Installation & Setup
 
+Follow these steps to run the project locally:
 
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Check for Security Vulnerabilities
+
+```bash
+npm audit
+```
+
+### Fix Vulnerabilities (if any)
+
+```bash
+npm audit fix
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+After running the above commands, your project should be running on:
+
+```
+http://localhost:5173
+```
+
+(Port may vary depending on your setup)
 # FleetFlow – Intelligent Fleet Lifecycle & Safety Management System  
 
 ### Replace Manual Logbooks with a Smart, Rule-Based Digital Fleet Hub
