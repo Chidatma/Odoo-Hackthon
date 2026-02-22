@@ -5,7 +5,7 @@ Follow these steps to run the project locally:
 ### Install Dependencies
 
 ```bash
-npm install
+pip install npm 
 ```
 
 ### Check for Security Vulnerabilities
